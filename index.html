@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diagnosebogen – Halbjahresarbeit Mathematik, Jahrgang 6</title>
+<style>
+:root{color-scheme:light;box-sizing:border-box;--ink:#2b3a52;--line:#5b6f8f;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html,body{height:100%}
+body{margin:0;font:16px/1.45 Arial,Helvetica,sans-serif;color:var(--ink);background:#e8edf3}
+body{background:#e8edf3 url('assets/hintergrund.jpg') no-repeat;background-size:100vw auto;background-position:center calc(38vh - 88.89vw)}
+@media (max-aspect-ratio: 3/4){body{background-size:auto 140vh;background-position:center -30vh}}
+.page{min-height:100%;display:flex;flex-direction:column;justify-content:space-between;gap:18px;padding:18px 16px 16px;max-width:1060px;margin:0 auto}
+.panel{background:rgba(255,255,255,.9);border:1px solid rgba(91,111,143,.45);border-radius:14px;padding:10px 18px;text-align:center;backdrop-filter:blur(3px)}
+h1{font-size:clamp(18px,2.6vw,24px);font-weight:700;margin:0;color:var(--ink)}
+.termin{margin:4px 0 0;font-size:16px}
+.gap{flex:1;min-height:36vh}
+h2{font-size:19px;margin:0 0 12px}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.card{display:flex;flex-direction:column;align-items:center;gap:0;text-align:center;border:2px solid var(--line);border-radius:12px;padding:12px 8px 10px;background:#fff;color:var(--ink);text-decoration:none}
+a.card:hover,a.card:focus-visible{background:#eef2f7;box-shadow:0 3px 10px rgba(43,58,82,.25);outline:3px solid #2b3a52;outline-offset:2px}
+.kz{font-size:42px;font-weight:700;line-height:1.05}
+.nm{font-size:14px;min-height:21px}
+.go{margin-top:6px;font-size:14px;font-weight:700}
+.card.off{background:rgba(255,255,255,.6);border:2px dashed #9aa6b8;color:#7b8798}
+.card.off .go{font-weight:400}
+.foot{margin:12px 0 0;font-size:13px;color:#4a5870}
+.foot a{color:var(--ink)}
+@media (max-width:640px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))} .gap{min-height:26vh}}
+</style></head><body>
+<div class="page">
+  <header class="panel">
+    <h1>Diagnosebogen – Halbjahresarbeit Mathematik, Jahrgang 6</h1>
+    <p class="termin">Termin: 04.12.2026</p>
+  </header>
+  <div class="gap" aria-hidden="true"></div>
+  <main class="panel">
+    <h2>In welchem Standard arbeitest du?</h2>
+    <div class="cards"><div class="card off" aria-disabled="true"><span class="kz">A</span><span class="nm"></span><span class="go">folgt noch</span></div><div class="card off" aria-disabled="true"><span class="kz">M</span><span class="nm">Mindeststandard</span><span class="go">folgt noch</span></div><a class="card" href="r/index.html"><span class="kz">R</span><span class="nm">Regelstandard</span><span class="go">Bogen öffnen →</span></a><a class="card" href="e/index.html"><span class="kz">E</span><span class="nm">Expertenstandard</span><span class="go">Bogen öffnen →</span></a></div>
+    <p class="foot">Für Lehrkräfte – Ergebnis-Übersicht: <a href="r/lehrer.html">R-Kurs</a> &nbsp;•&nbsp; <a href="e/lehrer.html">E-Kurs</a><br>© GAZ_Raude_Schulze</p>
+  </main>
+</div></body></html>
